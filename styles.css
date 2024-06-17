@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.navbar .logo a {
+    color: #9b59b6;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar .nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.header {
+    text-align: center;
+    padding: 4rem 0;
+    background: linear-gradient(to bottom, #2c2c2c, #121212);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #9b59b6;
+}
+
+.header h2 {
+    font-size: 1.5rem;
+    color: #cccccc;
+}
+
+.header p {
+    font-size: 1.25rem;
+    color: #cccccc;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.about, .projects, .skills, .contact {
+    margin: 2rem 0;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #9b59b6;
+}
+
+.skill-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.skill-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 1rem);
+    box-sizing: border-box;
+}
+
+.projects .project-box {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.projects .project-box h3 {
+    margin-top: 0;
+    color: #9b59b6;
+}
+
+.projects .project-box a {
+    color: #9b59b6;
+    text-decoration: none;
+}
+
+.projects .project-box a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #1a1a1a;
+    color: #cccccc;
+}
